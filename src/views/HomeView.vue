@@ -36,9 +36,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-h1 {
-  color: $primary-color;
-}
-</style>

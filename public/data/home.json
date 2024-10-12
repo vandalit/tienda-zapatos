@@ -2,11 +2,11 @@
     "mejoreszapatos": [
       {
         "titulo": "Botas Café Industrials Access",
-        "imagen": "https://example.com/botas1.jpg"
+        "imagen": "../../img/botas-mujer-6061-efecto-cuero.webp"
       },
       {
         "titulo": "Zapatos Formales Negro Felixiano Moc",
-        "imagen": "https://example.com/formales1.jpg"
+        "imagen": "../../img/botas-mujer-6061-efecto-cuero.webp"
       }
     ]
   }
