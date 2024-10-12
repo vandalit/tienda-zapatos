@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const apiClient = axios.create({
   baseURL: '/data',
-  withCredentials: false
+  // withCredentials: false
 });
 
 export default {

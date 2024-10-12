@@ -14,3 +14,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+h2 {
+  color: $primary-color;
+}
+</style>

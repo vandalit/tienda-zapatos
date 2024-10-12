@@ -2,7 +2,7 @@
   <div>
     <h1>Bienvenidos a la Tienda de Zapatos</h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner" v-if="zapatos.length">
         <div
           class="carousel-item"
           v-for="(zapato, index) in zapatos"
@@ -32,6 +32,8 @@ export default {
   mounted() {
     apiService.getHomeData().then(response => {
       this.zapatos = response.data.mejoreszapatos;
+    }).catch(error => {
+      console.error('Error cargando los datos del JSON:', error);
     });
   }
 };
