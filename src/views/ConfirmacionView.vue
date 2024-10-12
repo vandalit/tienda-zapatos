@@ -1,19 +1,16 @@
 <template>
-    <div>
-      <h1>Bienvenidos a la Tienda de Zapatos</h1>
-      <!-- Carrusel y otras secciones irán aquí -->
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'HomeView'
-  };
-  </script>
-  
-  <style scoped>
-  h1 {
-    color: $primary-color;
+  <div>
+    <h2>Confirmación de Orden</h2>
+    <p>¡Gracias por su compra! Su número de orden es: {{ numeroOrden }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      numeroOrden: Math.floor(Math.random() * 100000)
+    };
   }
-  </style>
-  
+};
+</script>
